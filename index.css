@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Prosto One", sans-serif;
+  background: linear-gradient(90deg, #b7d6f2, #a2a4e7, #bc62b6);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 700px;
+}
+
+#input {
+  width: 300px;
+  height: 40px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  width: 110px;
+  height: 38px;
+  cursor: pointer;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Prosto One", sans-serif;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.question {
+  align-self: flex-start;
+  border-radius: 18px 18px 18px 0;
+  background-color: rgba(183, 214, 242, 0.5);
+}
+
+.answer {
+  align-self: flex-end;
+  border-radius: 18px 18px 0px 18px;
+  background-color: rgba(188, 98, 182, 0.5);
+}
+
+.question,
+.answer {
+  width: fit-content;
+  border: solid;
+  padding: 15px;
+  max-width: 500px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+  header {
+    margin: 15px;
+  }
+
+  main {
+    width: 350px;
+  }
+
+  #input {
+    width: 220px;
+    height: 40px;
+  }
+
+  .button {
+    width: 100px;
+    height: 38px;
+  }
+
+  input,
+  button {
+    border-radius: 16px;
+    font-size: 12px;
+  }
+
+  .container {
+    margin: 20px;
+    font-size: 16px;
+  }
+}
